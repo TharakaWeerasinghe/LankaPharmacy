@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LoginRegistrationMaster.master.cs" Inherits="LankaPharmacy.LoginRegistrationMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Main.css" rel="stylesheet" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-image:url('Images/Background (2).jpg'); height: 100%;  background-position: center; background-repeat: no-repeat; background-size:100% 100%; background-attachment: fixed; ">
+    <div>
+        <table align="center" width="100%">
+            <tr>
+                <td>
+                    <img alt=""  src="Images/Banner (2).jpg" class="Banner"   />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <form id="form1" runat="server">
+    <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+    </div>
+    <div style="text-align:center; height:25px; background-color:azure;  bottom:0; width:100%">
+    &copy; LANKA PHARMACY Pvt.Ltd | All Rights Reserved.
+    </div>
+    </form>
+</body>
+</html>
